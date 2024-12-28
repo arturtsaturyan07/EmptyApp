@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Forgot Password -->
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="@color/link_color"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Register Redirect -->
+    <TextView
+        android:id="@+id/register_redirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textColor="@color/link_color"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
